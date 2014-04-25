@@ -1,0 +1,2 @@
+module SprintBoardsHelper
+end

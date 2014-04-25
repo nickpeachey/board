@@ -1,0 +1,17 @@
+---
+applications:
+  .:
+    name: board
+    framework:
+      name: rails3
+      info:
+        mem: 256M
+        description: Rails Application
+        exec: 
+    infra: aws
+    url: ${name}.${target-base}
+    mem: '512'
+    instances: 1
+    services:
+      board-mysql:
+        type: mysql

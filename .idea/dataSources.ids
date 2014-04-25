@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source source="LOCAL" name="Rails board: development" uuid="c9889ed9-8ed1-4691-8695-ce338be565c4">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source source="LOCAL" name="Rails board: test" uuid="370da755-7cef-4d39-94dc-e19287d5eee2">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source source="LOCAL" name="Rails board: cucumber" uuid="2b94e0b5-0e06-48b9-aa08-62c9cf85e96e">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source source="LOCAL" name="Rails board: proxied-appfog" uuid="d5054203-1f54-487a-94b6-4bb8fe11872f">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+</component>

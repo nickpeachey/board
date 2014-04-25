@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="4005208265">
+    <data-source source="LOCAL" name="Rails board: development" uuid="c9889ed9-8ed1-4691-8695-ce338be565c4">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/db/development.sqlite3</jdbc-url>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails board: test" uuid="370da755-7cef-4d39-94dc-e19287d5eee2">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/db/test.sqlite3</jdbc-url>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails board: cucumber" uuid="2b94e0b5-0e06-48b9-aa08-62c9cf85e96e">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/db/test.sqlite3</jdbc-url>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails board: proxied-appfog" uuid="d5054203-1f54-487a-94b6-4bb8fe11872f">
+      <driver-ref>mysql</driver-ref>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://127.0.0.1:10000/d57b117c564884113aec11fc231fc3966</jdbc-url>
+      <user-name>uzZeGin15iCtn</user-name>
+      <user-password>dfdadff9df9edf99dffddfc1dfccdfd8dfeddfc4dfe9dfc5dfcf</user-password>
+      <libraries />
+    </data-source>
+  </component>
+</project>
+
