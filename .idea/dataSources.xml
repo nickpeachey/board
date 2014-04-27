@@ -27,6 +27,12 @@
       <user-password>dfdadff9df9edf99dffddfc1dfccdfd8dfeddfc4dfe9dfc5dfcf</user-password>
       <libraries />
     </data-source>
+    <data-source source="LOCAL" name="Rails board: production" uuid="2146bd64-defe-42bf-bb38-5a8e9a1e1608">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/db/production.sqlite3</jdbc-url>
+      <libraries />
+    </data-source>
   </component>
 </project>
 

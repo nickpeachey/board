@@ -1,0 +1,25 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Lblcolour:</b>
+  <%= @card.lblColour_id %>
+</p>
+
+<p>
+  <b>Title:</b>
+  <%= @card.title %>
+</p>
+
+<p>
+  <b>Position:</b>
+  <%= @card.position %>
+</p>
+
+<p>
+  <b>Sprint board:</b>
+  <%= @card.sprint_board_id %>
+</p>
+
+
+<%= link_to 'Edit', edit_card_path(@card) %> |
+<%= link_to 'Back', cards_path %>

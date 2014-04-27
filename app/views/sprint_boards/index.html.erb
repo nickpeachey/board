@@ -24,6 +24,8 @@
         <td><%= sprint_board.summary %></td>
         <td><%=l sprint_board.created_at %></td>
         <td>
+          <%= link_to t('.visualize', :default => t("helpers.links.visualize")),
+                      sprint_board_visualize_path(sprint_board), :class => 'btn btn-mini' %>
           <%= link_to t('.edit', :default => t("helpers.links.edit")),
                       edit_sprint_board_path(sprint_board), :class => 'btn btn-mini' %>
           <%= link_to t('.destroy', :default => t("helpers.links.destroy")),

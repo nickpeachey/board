@@ -1,5 +1,10 @@
 Board::Application.routes.draw do
-  resources :sprint_boards
+  resources :lbl_colours
+  resources :cards
+
+  resources :sprint_boards do
+    get 'visualize'
+  end
 
   resources :home
 
