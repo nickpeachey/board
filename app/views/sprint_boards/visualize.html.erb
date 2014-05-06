@@ -1,1 +1,18 @@
 <h2><%= @message %></h2>
+
+<div id="board">
+  <h2><%=@model.board.title %></h2>
+  <div class="board actions">
+    <ul>
+      <li>View</li><li>Edit</li>
+    </ul>
+  </div>
+
+  <div class="list-container">
+    <% @model.board.cards.each do |card| %>
+        <div class="list cards">
+        <div><%= card.title %></div>
+        </div>
+    <% end %>
+  </div>
+</div>

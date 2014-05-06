@@ -1,4 +1,9 @@
 Board::Application.routes.draw do
+  resources :columns do
+    member do
+      get 'board_data'
+    end
+  end
   resources :lbl_colours
   resources :cards
 

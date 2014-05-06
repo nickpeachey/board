@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20140425152150) do
+ActiveRecord::Schema.define(:version => 20140506154915) do
 
   create_table "cards", :force => true do |t|
     t.integer  "lblColour_id"
@@ -20,6 +20,16 @@ ActiveRecord::Schema.define(:version => 20140425152150) do
     t.integer  "sprint_board_id"
     t.datetime "created_at",      :null => false
     t.datetime "updated_at",      :null => false
+    t.datetime "date_added"
+    t.integer  "column_id"
+  end
+
+  create_table "columns", :force => true do |t|
+    t.string   "title"
+    t.integer  "position"
+    t.datetime "created_at",      :null => false
+    t.datetime "updated_at",      :null => false
+    t.integer  "sprint_board_id"
   end
 
   create_table "lbl_colours", :force => true do |t|

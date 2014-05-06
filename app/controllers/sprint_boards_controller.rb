@@ -51,6 +51,10 @@ before_filter :set_sprint_board_model, only: [:show, :destroy]
   end
 
   def visualize
+    board = SprintBoard.find(params[:sprint_board_id])
+    cards = Card.find_all_by_sprint_board_id(params[:sprint_board_id])
+    @model = VisualizationModel.new(board, cards)
+
     @message = "visualize to be implemented"
   end
 
